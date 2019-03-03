@@ -1,0 +1,51 @@
+/* 
+    设置当前视口为i6
+    1rem=20px  
+    然后得工作就是慢慢算
+        不推荐用媒体查询的方法
+*/
+html {
+    font-size : 20px;
+    }
+    @media only screen and (min-width: 401px){
+    html {
+    font-size: 25px !important;
+    }
+    }
+    @media only screen and (min-width: 428px){
+    html {
+    font-size: 26.75px !important;
+    }
+    }
+    @media only screen and (min-width: 481px){
+    html {
+    font-size: 30px !important;
+    }
+    }
+    @media only screen and (min-width: 569px){
+    html {
+    font-size: 35px !important;
+    }
+    }
+    @media only screen and (min-width: 641px){
+    html {
+    font-size: 40px !important;
+    }
+    }
+
+
+
+    
+    .container{
+        width:100%;
+    }
+    .container .list{
+        width:100%;
+        display: flex;
+    }
+    .container .list li{
+        font-size: 0.7rem;
+        flex:1;
+        text-align: center;
+        float:left;
+    }
